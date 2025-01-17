@@ -103,6 +103,12 @@ ps aux
 ```
 docker run -d -p 8080:80 httpd
 ```
+Access the webpage:
+```
+curl http://publicipofec2:hostport
+```
+e.g.: curl http://3.144.27.38:8080
+
 ```
 docker ps
 ```
